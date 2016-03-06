@@ -18,8 +18,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXh-Ut-eBf">
-                                <rect key="frame" x="107" y="260" width="30" height="30"/>
-                                <state key="normal" title="Test"/>
+                                <rect key="frame" x="10" y="260" width="225" height="30"/>
+                                <state key="normal" title="Enable Auto Check-in/Check-out"/>
                                 <connections>
                                     <action selector="getFixPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Aj-0S-QCT"/>
                                 </connections>
@@ -28,6 +28,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="yXh-Ut-eBf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3eA-wv-05q"/>
+                            <constraint firstItem="yXh-Ut-eBf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="88L-5q-JtK"/>
+                            <constraint firstItem="yXh-Ut-eBf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bz7-dI-25L"/>
                             <constraint firstItem="yXh-Ut-eBf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eyc-zS-kxt"/>
                         </constraints>
                     </view>
