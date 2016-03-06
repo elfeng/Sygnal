@@ -15,6 +15,7 @@
 		1B2CF13E1C8AD80700849804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2CF13C1C8AD80700849804 /* LaunchScreen.storyboard */; };
 		1B2CF1491C8AD80700849804 /* StableLocationTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2CF1481C8AD80700849804 /* StableLocationTestTests.swift */; };
 		1B2CF1541C8AD80700849804 /* StableLocationTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2CF1531C8AD80700849804 /* StableLocationTestUITests.swift */; };
+		1B2CF19F1C8AF3EF00849804 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2CF19E1C8AF3EF00849804 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1B2CF14F1C8AD80700849804 /* StableLocationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StableLocationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B2CF1531C8AD80700849804 /* StableLocationTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StableLocationTestUITests.swift; sourceTree = "<group>"; };
 		1B2CF1551C8AD80700849804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B2CF19E1C8AF3EF00849804 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B2CF19F1C8AF3EF00849804 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +82,7 @@
 		1B2CF1241C8AD80600849804 = {
 			isa = PBXGroup;
 			children = (
+				1B2CF19E1C8AF3EF00849804 /* CoreLocation.framework */,
 				1B2CF12F1C8AD80700849804 /* StableLocationTest */,
 				1B2CF1471C8AD80700849804 /* StableLocationTestTests */,
 				1B2CF1521C8AD80700849804 /* StableLocationTestUITests */,
@@ -197,6 +201,11 @@
 					1B2CF12C1C8AD80700849804 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = ZTU5DK27S3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					1B2CF1431C8AD80700849804 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -491,6 +500,7 @@
 				1B2CF15A1C8AD80700849804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B2CF15B1C8AD80700849804 /* Build configuration list for PBXNativeTarget "StableLocationTestTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +509,7 @@
 				1B2CF15D1C8AD80700849804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B2CF15E1C8AD80700849804 /* Build configuration list for PBXNativeTarget "StableLocationTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +518,7 @@
 				1B2CF1601C8AD80700849804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
